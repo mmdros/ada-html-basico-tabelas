@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .colorida{
+            border-collapse: collapse;
+            margin: 4px;
+            width: 500px;
+        }
+        th, td{
+            border: solid 1px;
+            text-align: center;
+            padding: 3px;
+        }
+        
+        .header-cinza {
+            background-color: lightgray;
+        }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Alunos</th>
+            </tr>
+        <tr>
+            <th>Aluno</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Nota 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Aluno 1</td>
+            <td>10</td>
+            <td>7.0</td>
+            <td>6.5</td>
+            <td>8.0</td>
+        </tr>
+        <tr>
+            <td>Aluno 2</td>
+            <td>4.0</td>
+            <td>6.4</td>
+            <td>9.0</td>
+            <td>5.5</td>
+            
+        </tr>
+        <tr>
+            <td>Aluno 3</td>
+            <td>9.0</td>
+            <td>4.0</td>
+            <td>8.7</td>
+            <td>8.0</td>
+            
+        </tr>
+    </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="2">Informações</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>18</td>
+                <td>67Kg</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>89Kg</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Mulheres</th>
+                <td>31</td>
+                <td>87Kg</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>56Kg</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="colorida">
+        <thead class="header-cinza">
+            <tr>
+                <th></th>
+                <th colspan="2">Informações</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="header-cinza" rowspan="2">Homens</th>
+                <td>18</td>
+                <td>67Kg</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>89Kg</td>
+            </tr>
+            <tr>
+                <th class="header-cinza" rowspan="2">Mulheres</th>
+                <td>31</td>
+                <td>87Kg</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>56Kg</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
