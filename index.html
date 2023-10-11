@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,16 +12,31 @@
             margin: 4px;
             width: 500px;
         }
+        .desafio {
+            border-collapse: collapse;
+            margin: 10px;
+            width: 600px;
+        }
         th, td{
             border: solid 1px;
             text-align: center;
             padding: 3px;
+            margin: 0 50px;
         }
         
-        .header-cinza {
+        .header-cinza, .head-color {
             background-color: lightgray;
+            background-color: yellow;
         }
+        ul {
+            padding: 0;
+            margin: 15px;
+            list-style-type: none;
+            text-align: start;
+        }
+        
     </style>
+    <h2>Exercício 1</h2>
     <table>
         <thead>
             <tr>
@@ -61,6 +76,7 @@
         </tr>
     </tbody>
     </table>
+    <h2>Exercício 2</h2>
 
     <table>
         <thead>
@@ -95,6 +111,7 @@
             </tr>
         </tbody>
     </table>
+    <h2>Exercício 3</h2>
 
     <table class="colorida">
         <thead class="header-cinza">
@@ -125,6 +142,79 @@
             <tr>
                 <td>23</td>
                 <td>56Kg</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Desafio</h2>
+    
+        <table class="desafio">
+        <thead class="head-color">
+            <tr>
+                <th colspan="4">Filmes e Séries</th>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Nota</th>
+                <th>Elenco</th>
+                <th>Cartaz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.imdb.com/title/tt13622776/?ref_=hm_top_tt_i_3" target="_blank">Ahsoka</a></td>
+                <td>7.8/10</td>
+                <td>
+                    <ul>
+                        <li>Rosario Dawnson</li>
+                        <li>David Tennant</li>
+                        <li>Batasha Liu Bordizzo</li>
+                    </ul>
+                </td>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+                        width="100px"></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.imdb.com/title/tt0412142/?ref_=hm_stp_pvs_piv_tt_i_19" target="_blank">Dr.
+                        House</a></td>
+                <td>8.7/10</td>
+                <td>
+                    <ul>
+                        <li>Hugh Laurie</li>
+                        <li>Omar Epps</li>
+                        <li>Robert Sean Leonard</li>
+                    </ul>
+                </td>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BMDA4NjQzN2ItZDhhNC00ZjVlLWFjNTgtMTEyNDQyOGNjMDE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"
+                        width="100px"></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.imdb.com/title/tt15789038/?ref_=hm_fanfav_tt_i_13_pd_fp1_r"
+                        target="_blank">Elementos</a></td>
+                <td>7.0/10</td>
+                <td>
+                    <ul>
+                        <li>Leah Lewis</li>
+                        <li>Mamoudou Athie</li>
+                        <li>Ronnie Del Carmen</li>
+                    </ul>
+                </td>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BZjYxYWVjMDMtZGRjZS00ZDE4LTk0OWUtMjUyOTI4MmYxNjgwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+                        width="100px"></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.imdb.com/title/tt9362722/?ref_=hm_fanfav_tt_i_19_pd_fp1_r"
+                        target="_blank">Homem-Aranha: Através do Aranhaverso</a></td>
+                <td>8.7/10</td>
+                <td>
+                    <ul>
+                        <li>Shameik Moore</li>
+                        <li>Hailee Steinfeld</li>
+                        <li>Daniel Kaluuya</li>
+                    </ul>
+                </td>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg"
+                        width="100px"></td>
             </tr>
         </tbody>
     </table>
