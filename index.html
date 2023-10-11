@@ -21,11 +21,10 @@
             border: solid 1px;
             text-align: center;
             padding: 3px;
-            margin: 0 50px;
         }
         
         .header-cinza {
-            background-color: lightgray;
+            background-color: #ccc;
         }
 
         .head-color {
@@ -37,11 +36,16 @@
             list-style-type: none;
             text-align: start;
         }
+
+    .font-background{
+        font-size: 16px;
+        color: #555;
+    }
         
     </style>
     <h2>Exercício 1</h2>
     <table>
-        <thead>
+        <thead class="header-cinza">
             <tr>
                 <th colspan="5">Alunos</th>
             </tr>
@@ -53,7 +57,7 @@
             <th>Nota 4</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="font-background">
         <tr>
             <td>Aluno 1</td>
             <td>10</td>
@@ -82,7 +86,7 @@
     <h2>Exercício 2</h2>
 
     <table>
-        <thead>
+        <thead class="header-cinza">
             <tr>
                 <th></th>
                 <th colspan="2">Informações</th>
@@ -93,7 +97,7 @@
                 <th>Peso</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="font-background">
             <tr>
                 <th rowspan="2">Homens</th>
                 <td>18</td>
@@ -127,7 +131,7 @@
                 <th>Peso</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="font-background">
             <tr>
                 <th class="header-cinza" rowspan="2">Homens</th>
                 <td>18</td>
